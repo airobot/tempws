@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical" >
+   
+    <TextView
+        android:id="@+id/widget_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:fontFamily="PT Sans Caption"
+        android:text="@string/widget_text"
+        android:textColor="@android:color/white"
+        android:textSize="54dp" />
+    
+    <TextView
+        android:id="@+id/widget_textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="PT Sans"
+        android:text="в Смоленске"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
+</LinearLayout>
